@@ -1,0 +1,88 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e89] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e13]: TodoList
+        - navigation [ref=e14]:
+          - link [ref=e90] [cursor=pointer]:
+            - /url: /categories
+            - img [ref=e16]
+            - text: Categories
+          - link [ref=e91] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e21]
+            - generic [ref=e24]: Settings
+          - button [ref=e92]:
+            - img [ref=e26]
+            - generic [ref=e32]: Toggle theme
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading [level=1] [ref=e93]: My Tasks
+          - paragraph [ref=e37]: 0 pending, 0 completed
+        - button [ref=e94]:
+          - img
+          - text: New Task
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - textbox [ref=e95]:
+            - /placeholder: Search tasks...
+        - generic [ref=e48]:
+          - combobox [ref=e49]:
+            - generic [ref=e50]: All priorities
+            - img: ▼
+          - textbox [ref=e51]
+          - combobox [ref=e52]:
+            - generic [ref=e53]: All categories
+            - img: ▼
+          - textbox [ref=e54]
+          - generic [ref=e56] [cursor=pointer]: Hide completed
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - img [ref=e60]
+          - text: Task List
+        - generic [ref=e82]:
+          - img [ref=e83]
+          - paragraph [ref=e86]: No tasks found
+          - paragraph [ref=e87]: Create your first task to get started
+  - region "Notifications alt+T"
+  - alert [ref=e88]
+  - dialog "Create New Task" [ref=e99]:
+    - heading "Create New Task" [level=2] [ref=e101]
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]: Title
+        - textbox "Title" [active] [ref=e105]:
+          - /placeholder: Enter task title
+      - generic [ref=e106]:
+        - generic [ref=e107]: Description (optional)
+        - textbox "Description (optional)" [ref=e108]:
+          - /placeholder: Enter task description
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: Priority
+          - combobox [ref=e112]:
+            - generic [ref=e113]: MEDIUM
+            - img: ▼
+          - textbox [ref=e114]: MEDIUM
+        - generic [ref=e115]:
+          - generic [ref=e116]: Category
+          - combobox [ref=e117]:
+            - generic [ref=e118]: No category
+            - img: ▼
+          - textbox [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e121]: Due Date (optional)
+        - button "Pick a date" [ref=e122]:
+          - img
+          - text: Pick a date
+      - generic [ref=e123]:
+        - button "Cancel" [ref=e124]
+        - button "Create" [ref=e125]
+    - button "Close" [ref=e126]:
+      - img
+      - generic [ref=e127]: Close

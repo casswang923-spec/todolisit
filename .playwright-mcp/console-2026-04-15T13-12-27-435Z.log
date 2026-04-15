@@ -1,0 +1,4 @@
+[   22869ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://todolisit-phi.vercel.app/api/categories:0
+[   23687ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://todolisit-phi.vercel.app/api/tasks:0
+[   39828ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://todolisit-phi.vercel.app/api/categories:0
+[   77921ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://todolisit-phi.vercel.app/api/tasks:0
