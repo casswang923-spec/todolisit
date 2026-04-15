@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "TodoList" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e13]: TodoList
+        - navigation [ref=e14]:
+          - link "Categories" [ref=e15] [cursor=pointer]:
+            - /url: /categories
+            - img [ref=e16]
+            - text: Categories
+          - link "Settings" [ref=e20] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e21]
+            - generic [ref=e24]: Settings
+          - button "Toggle theme" [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e32]: Toggle theme
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "My Tasks" [level=1] [ref=e36]
+          - paragraph [ref=e37]: 0 pending, 0 completed
+        - button "New Task" [ref=e38]:
+          - img
+          - text: New Task
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - textbox "Search tasks..." [ref=e47]
+        - generic [ref=e48]:
+          - combobox [ref=e49]:
+            - generic [ref=e50]: All priorities
+            - img: ▼
+          - textbox [ref=e51]
+          - combobox [ref=e52]:
+            - generic [ref=e53]: All categories
+            - img: ▼
+          - textbox [ref=e54]
+          - generic [ref=e56] [cursor=pointer]: Hide completed
+      - generic [ref=e59]:
+        - img [ref=e60]
+        - text: Task List
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e87] [cursor=pointer]:
+    - img [ref=e88]
